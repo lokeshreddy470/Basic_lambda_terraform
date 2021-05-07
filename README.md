@@ -1,16 +1,16 @@
-# Terraform script for creating VPC, Subnets, Internet gateway, Nat gateway, EKS cluster and Wordpress application. 
+# Terraform script for creating VPC, Subnets, IGW, Nat gateway, EKS cluster and Wordpress application. 
 
-I have differentiated the code as 2 main repos one is purely for infrastruture creation and other one is for application deployment using Helm 
+The code is differentiated in to 2 main repos, one is purely for infrastruture creation and other one is for application deployment using Helm 
 
-**Infrastruture Code has 4 files in it**
+**Infrastruture Code consists 4 files**
 
 Main.tf -- Contains all the code required for creating VPC, Subnets, Internet gateway, nat gateway and kubernetes cluster.
 
-outputs.tf -- Contains all the output components 
+outputs.tf -- Contains the output components 
 
-variables.tf -- Contains all the required variables for the execution of the script 
+variables.tf -- Contains the required variables for the execution of the script 
 
-versions.tf -- Specified all the provider versions required for the terraform execution. 
+versions.tf -- Specific provider versions required for the terraform execution. 
 
 **Helm code for deployment**
 
@@ -23,7 +23,7 @@ plugins.tf -- specified the required version of plugins.
 _**How to excute the script ??**_
 
 
-_I have created a simple bash script to excute the terraform changes CD into the folder and excute the infra.sh by running the command_ `sh infra.sh`
+_I have created a simple bash script to excute the terraform changes, CD into the folder and excute the infra.sh by running the command_ `sh infra.sh`
 
 
 
