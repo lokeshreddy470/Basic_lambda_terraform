@@ -12,7 +12,7 @@ variables.tf -- Contains all the required variables for the execution of the scr
 
 versions.tf -- Specified all the provider versions required for the terraform execution. 
 
-_**Helm code for deployment** _
+**Helm code for deployment**
 
 Helm.tf -- Contains configuration related to helm deployment like repository, chart and all other required details. 
 
