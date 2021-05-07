@@ -1,6 +1,6 @@
 # Terraform script for creating VPC, Subnets, IGW, Nat gateway, EKS cluster and Wordpress application. 
 
-The code is differentiated in to 2 main repos, one is purely for infrastruture creation and other one is for application deployment using Helm 
+The code is differentiated in to 2 main repos, one is for infrastruture creation and other one is for application deployment using Helm 
 
 **Infrastruture Code consists 4 files**
 
