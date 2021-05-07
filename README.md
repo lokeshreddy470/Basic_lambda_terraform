@@ -2,7 +2,7 @@
 
 I have differentiated the code as 2 main repos one is purely for infrastruture creation and other one is for application deployment using Helm 
 
-**Infrastruture Code has 4 folders in it** 
+**Infrastruture Code has 4 files in it** 
 
 Main.tf -- Contains all the code required for creating VPC, Subnets, Internet gateway, nat gateway and kubernetes cluster.
 
