@@ -16,8 +16,8 @@ provider.tf - Containers aws region and configuration
 plugins.tf -- specified the required version of plugins. 
 
 _**How to excute the script ??**_
-
-_I have created a simple bash script to excute the terraform changes CD into the folder and excute the infra.sh by running the command `sh infra.sh` _
+_
+I have created a simple bash script to excute the terraform changes CD into the folder and excute the infra.sh by running the command_ `sh infra.sh`
 
 
 
