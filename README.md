@@ -2,7 +2,7 @@
 
 I have differentiated the code as 2 main repos one is purely for infrastruture creation and other one is for application deployment using Helm 
 
-**Infrastruture Code has 4 files in it** 
+_**Infrastruture Code has 4 files in it** _
 
 Main.tf -- Contains all the code required for creating VPC, Subnets, Internet gateway, nat gateway and kubernetes cluster.
 
@@ -12,7 +12,7 @@ variables.tf -- Contains all the required variables for the execution of the scr
 
 versions.tf -- Specified all the provider versions required for the terraform execution. 
 
-**Helm code for deployment** 
+_**Helm code for deployment** _
 
 Helm.tf -- Contains configuration related to helm deployment like repository, chart and all other required details. 
 
